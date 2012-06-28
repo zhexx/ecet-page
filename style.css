@@ -1,0 +1,35 @@
+body {
+  background: #eee;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+
+header h1 {
+  color: green;
+  text-shadow: 0 0 1px #ccc;
+  font-size: 4em;
+}
+
+.main section.manager {
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px #ccc;
+  color: red;
+}
+
+.main section:not(:first-child) {
+  float: left;
+  width: 33%;
+}
+
+.clearfix:before, .clearfix:after { display: table; content: ""; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 12px;
+}
